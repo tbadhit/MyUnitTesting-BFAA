@@ -21,6 +21,10 @@ import android.widget.TextView
 // in create test dialog, choose JUnit4 and checklist all function that will be made unit test
 // Click "OK" and choose "\app\src\test\"
 // Add code in "MainViewModelTest" class (1) (2) (3) (4)
+
+// UI TESTING (Instrumental Testing) :
+// Add dependecies in "build.gradle(module: app)" (2)
+// ALT + ENTER "MainActivity" -> Create test -> name it "MainActivityTest"
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     // (1)
